@@ -1,0 +1,43 @@
+[
+    {
+      "venue": {
+        "address": "Crowdfire HQ\n 23rd Floor, CyberOne, Opp CIDCO International Exhibition Centre Vashi,\nSector 30\nNavi Mumbai, Maharashtra-400703",
+        "link": "https://goo.gl/maps/MuPPtLuHVuL2"
+      },
+      "agenda": [
+        {
+          "name": "We build Empathy, not Just Models",
+          "speaker": {
+            "twitter": "@Avanish52111547",
+            "name": "Avani Shah"
+          },
+          "start": "11:00 am",
+          "end": "11:45 am"
+        },
+        {
+          "speaker": {
+            "twitter": "@_yogeshsingh",
+            "name": "Yogesh Singh"
+          },
+          "start": "11:45 am",
+          "end": "12:15 pm",
+          "name": "try! Swift"
+        },
+        {
+          "name": "PWAMP, the music of AMP+PWA",
+          "speaker": {
+            "twitter": "@technorajat",
+            "name": "Rajat Chowdhary"
+          },
+          "start": "12:30 pm",
+          "end": "01:15 pm"
+        }
+      ],
+      "desc": "In 2019, we want to take you out of your comfort zones and plunge you to greater heights.\n See you on 19th Jan at @Crowdfire ",
+      "name": "GDGMAD January, 2019",
+      "img-link":"https://pbs.twimg.com/media/Dv4p0LYXcAAEvRj.jpg",
+      "meetup-link":"https://www.meetup.com/gdg-mad/events/257701052/",
+      "time": 1542997800000,
+      "date": "19-01-2019"
+    }
+  ]
