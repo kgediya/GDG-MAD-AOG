@@ -6,7 +6,7 @@
       },
       "agenda": [
         {
-          "name": "We build Empathy, not Just Models",
+          "name": "Dummy topic 1",
           "speaker": {
             "twitter": "karntrehan",
             "name": "Karan Trehan"
@@ -25,7 +25,7 @@
           "name": "Open-Source Technologies"
         },
         {
-          "name": "PWAMP, the music of AMP+PWA",
+          "name": "Dummy topic 3",
           "speaker": {
             "twitter": "AniketSMK",
             "name": "Aniket Kadam"
