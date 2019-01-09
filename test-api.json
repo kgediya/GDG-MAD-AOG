@@ -8,26 +8,27 @@
         {
           "name": "We build Empathy, not Just Models",
           "speaker": {
-            "twitter": "@Avanish52111547",
-            "name": "Avani Shah"
+            "twitter": "@karntrehan",
+            "name": "Karan Trehan"
           },
           "start": "11:00 am",
           "end": "11:45 am"
         },
         {
+          
           "speaker": {
-            "twitter": "@_yogeshsingh",
-            "name": "Yogesh Singh"
+            "twitter": "@_nikhi1",
+            "name": "Nikhil Thakkar"
           },
           "start": "11:45 am",
           "end": "12:15 pm",
-          "name": "try! Swift"
+          "name": "Open-Source Technologies"
         },
         {
           "name": "PWAMP, the music of AMP+PWA",
           "speaker": {
-            "twitter": "@technorajat",
-            "name": "Rajat Chowdhary"
+            "twitter": "@AniketSMK",
+            "name": "Aniket Kadam"
           },
           "start": "12:30 pm",
           "end": "01:15 pm"
