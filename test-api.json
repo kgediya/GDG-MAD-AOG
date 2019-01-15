@@ -11,8 +11,8 @@
             "twitter": "DRVaya",
             "name": "Dharmesh Vaya"
           },
-          "start": "11:00 am",
-          "end": "11:45 am"
+          "start": "",
+          "end": ""
         },
         {
           
@@ -20,8 +20,8 @@
             "twitter": "_Rinav",
             "name": "Rinav Gangar"
           },
-          "start": "11:45 am",
-          "end": "12:15 pm",
+          "start": "",
+          "end": "",
           "name": "Building भारत आवाज"
         },
         {
@@ -30,7 +30,7 @@
             "twitter": "nancyja_in",
             "name": "Nancy Jain"
           },
-          "start": "12:30 pm",
+          "start": "",
           "end": "01:15 pm"
         }
       ],
