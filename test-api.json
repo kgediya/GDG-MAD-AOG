@@ -6,32 +6,32 @@
       },
       "agenda": [
         {
-          "name": "Dummy topic 1",
+          "name": "To Infinity & Beyond, Cloud Spanner",
           "speaker": {
-            "twitter": "karntrehan",
-            "name": "Karan Trehan"
+            "twitter": "DRVaya",
+            "name": "Dharmesh Vaya"
           },
-          "start": "11:00 am",
-          "end": "11:45 am"
+          "start": "",
+          "end": ""
         },
         {
           
           "speaker": {
-            "twitter": "_nikhi1",
-            "name": "Nikhil Thakkar"
+            "twitter": "_Rinav",
+            "name": "Rinav Gangar"
           },
-          "start": "11:45 am",
-          "end": "12:15 pm",
-          "name": "Open-Source Technologies"
+          "start": "",
+          "end": "",
+          "name": "Building भारत आवाज"
         },
         {
-          "name": "Dummy topic 3",
+          "name": "No, don't test it on your mom",
           "speaker": {
-            "twitter": "AniketSMK",
-            "name": "Aniket Kadam"
+            "twitter": "nancyja_in",
+            "name": "Nancy Jain"
           },
-          "start": "12:30 pm",
-          "end": "01:15 pm"
+          "start": "",
+          "end": " "
         }
       ],
       "desc": "In 2019, we want to take you out of your comfort zones and plunge you to greater heights.\n See you on 19th Jan at @Crowdfire ",
