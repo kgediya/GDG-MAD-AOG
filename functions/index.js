@@ -6,6 +6,7 @@ const {WebhookClient} = require('dialogflow-fulfillment');
 const {Payload,Card, Suggestion,Image} = require('dialogflow-fulfillment');
 const fetch = require('node-fetch');
 const url = "https://raw.githubusercontent.com/kgediya/GDG-MAD-AOG/master/test-api.json";
+const gifs = ["https://media.giphy.com/media/4Nq9NNTuIlMnm/giphy-downsized-large.gif","https://media.giphy.com/media/LoX8yc1ngPCvu/giphy.gif","https://media.giphy.com/media/DCOgUFTPoCWqGLoyc7/giphy.gif","https://media.giphy.com/media/l0IybIP1xUDwcY7Kw/giphy.gif"];
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
  
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
@@ -24,7 +25,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 async function meetupQuery(agent){
  //Fetch the parsed information from the API
   const data = await fetchInfo();
+  //Compute the timestamp at which and the action is invoke and check if meet-up is scheduled or not
+  if(data.timestamp>new Date().getTime()){
   agent.add(`Upcoming GDG MAD meet-up is on ${data.date}`);
+  
   //Add a card response using the information
     agent.add(new Card({
              title: `${data.title}`,
@@ -48,7 +52,21 @@ async function meetupQuery(agent){
     }));
     //Set context for followup events
     agent.setContext({ name: 'meetup', lifespan: 4, parameters: { agenda: data.agenda,speaker1:data.agenda[0].speaker,speaker2:data.agenda[1].speaker,speaker3:data.agenda[2].speaker,venue_title:data.venue.address.split('\n')[0],venue:data.venue.address, map:data.venue.link}});
-}
+  }else {
+    //Generate random gif_id to provide random gifs url to card from our gifs variable
+    var gif_id = Math.floor(Math.random()*gifs.length);
+    agent.add(`Sorry no new meet-up is scheduled for now. You can view our past meetups on our Meetups.com page!`);
+    agent.add(new Card({
+      title: `GDG MAD`,
+      subtitle: `GDG Mumbai Application Developers Group`,
+      imageUrl: `${gifs[gif_id]}`,
+      text: `GDG MAD is a monthly meetup in Mumbai, that aims to bring the developer community together to learn, teach, discuss, share, and most importantly, form lasting connections. We're one big, welcoming bunch, all backgrounds, genders, skill levels and outlooks invited.
+      `,
+      buttonText: 'VISIT',
+      buttonUrl: `https://www.meetup.com/gdg-mad/`
+ }));
+  }
+  }
 async function agendaQuery(agent){
   const a11yText = 'Google Assistant Bubbles';
 const googleUrl = 'https://google.com';
@@ -124,6 +142,7 @@ async function fetchInfo(){
     //return the extracted information on successful fetching
     title: response[0].name, 
     date: response[0].date,
+    timestamp: response[0].time,
     data: descri,
     venue : response[0].venue,
     imageUrl: response[0].img_link,
