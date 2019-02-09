@@ -1,8 +1,8 @@
 [
     {
       "venue": {
-        "address": "Crowdfire HQ\n 23rd Floor, CyberOne, Opp CIDCO International Exhibition Centre Vashi,\nSector 30\nNavi Mumbai, Maharashtra-400703",
-        "link": "https://goo.gl/VoUgsa"
+        "address": "Plot D6, Rd Number 20,\n Shree Krishna Nagar, Marol MIDC Industry Estate,\n Andheri East, Mumbai, Maharashtra 400090",
+        "link": "https://goo.gl/maps/LXnBUPBDB2q"
       },
       "agenda": [
         {
@@ -34,11 +34,11 @@
           "end": " "
         }
       ],
-      "desc": "In 2019, we want to take you out of your comfort zones and plunge you to greater heights.\n See you on 19th Jan at @Crowdfire ",
-      "name": "GDGMAD January, 2019",
-      "img_link":"https://pbs.twimg.com/media/Dv4p0LYXcAAEvRj.jpg",
-      "meetup_link":"https://www.meetup.com/gdg-mad/events/257701052/",
-      "time": 1549392592000,
-      "date": "19-01-2019"
+      "desc": "Hardware meets software this month at @makersasylum with #gdgmad \nWe're excited to be taking you to newer spaces which showcase the epitome of hardware projects and machinery.\nLaser-etch your calenders for Feb 23\nNo hard hats required in this one.",
+      "name": "GDGMAD February, 2019",
+      "img_link":"https://pbs.twimg.com/media/DyzahqOUwAAt90W.jpg:large",
+      "meetup_link":"https://www.meetup.com/gdg-mad/events/",
+      "time": 1550916021000,
+      "date": "23-02-2019"
     }
   ]
