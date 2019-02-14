@@ -6,10 +6,10 @@
       },
       "agenda": [
         {
-          "name": "To Infinity & Beyond, Cloud Spanner",
+          "name": "MLOps",
           "speaker": {
-            "twitter": "DRVaya",
-            "name": "Dharmesh Vaya"
+            "twitter": "gdgmad",
+            "name": "Prathamesh Sarang"
           },
           "start": "",
           "end": ""
@@ -17,18 +17,18 @@
         {
           
           "speaker": {
-            "twitter": "_Rinav",
-            "name": "Rinav Gangar"
+            "twitter": "gdgmad",
+            "name": "TBD"
           },
           "start": "",
           "end": "",
-          "name": "Building भारत आवाज"
+          "name": "To be announced"
         },
         {
-          "name": "No, don't test it on your mom",
+          "name": " ",
           "speaker": {
-            "twitter": "nancyja_in",
-            "name": "Nancy Jain"
+            "twitter": " ",
+            "name": " "
           },
           "start": "",
           "end": " "
